@@ -1,0 +1,186 @@
+/* Reset de Estilos */
+body, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li a {
+    color: whitesmoke; /* Cor do texto dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+    transition: color 0.3s; /* Transição suave da cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a:hover {
+    color: #454545; /* Cor do texto dos links quando o mouse passa por cima */
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    padding: 5px;
+    text-align: left;
+    margin: 10px;
+    align-items: center;
+}
+
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #0b0323;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos do campo de pesquisa */
+.search-container input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+}
+
+.search-container button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #555;
+}
+
+/* Estilo do botão de cadastro */
+.signup-button a {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.signup-button a:hover {
+    background-color: #555;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para o formulário de contato */
+.contato-form {
+    max-width: 400px;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+
+}
+
+.contato-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+.contato-container {
+    display: flex;
+    align-items: center; /* Centralizar verticalmente */
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.imagem-direita {
+    flex: 1; /* Ajusta a largura da imagem em relação ao formulário */
+    text-align: right; /* Alinha a imagem à direita */
+}
+
+.imagem-pequena {
+    max-width: 200px; /* Tamanho máximo da imagem */
+    height: auto;
+}
+
+/* Restante dos estilos do formulário */
+.contato-form input[type="text"],
+.contato-form input[type="email"],
+.contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.contato-form textarea {
+    resize: vertical;
+}
+
+.contato-form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contato-form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+

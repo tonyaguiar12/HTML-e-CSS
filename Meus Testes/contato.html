@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contato - Meu Site de Programação</title>
+</head>
+<body>
+    <header>
+        <h1>Contato</h1>
+        <nav>
+            <ul style="text-align: right;">
+                <li><a href="test.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Entre em Contato</h2>
+            <p>Se você tiver alguma dúvida ou quiser entrar em contato, preencha o formulário abaixo:</p>
+            <div class="contato-container">
+                <form class="contato-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="2" required></textarea>
+                    
+                    <button type="submit" >Enviar</button>
+                    
+                </form>
+                <section class="imagem-direita">
+                    <img src="1826785.png" alt="Imagem de exemplo" class="imagem-pequena">
+                </section>
+            </div>
+           
+        </section>
+        <section>
+            <h2>Informações de Contato</h2>
+            <p>Você também pode entrar em contato comigo das seguintes maneiras:</p>
+            <ul>
+                <li>Email: furtadotonilson@gmail.com</li>
+                <li>Telefone: (+351) 926334432</li>
+                <li>Redes Sociais: 
+                    <a href="https://twitter.com/meusitedeprogramacao">YouTube</a>,
+                    <a href="https://www.facebook.com/profile.php?id=100087974353450">Facebook</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Meu Site de Programação</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const formulario = document.querySelector(".contato-form");
+    
+            formulario.addEventListener("submit", function(event) {
+                event.preventDefault();
+    
+                // Simulando o envio do formulário
+                // Aqui você pode adicionar sua lógica de envio do formulário para um servidor real
+    
+                alert("Mensagem enviada com sucesso!");
+    
+                formulario.reset(); // Limpar o formulário após o envio
+            });
+        });
+    </script>
+   
+    
+    
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            margin: 10px;
+            padding: 10px;
+        }
+        header{
+            background-color: rgb(148, 185, 197);
+            padding: 5px;
+            margin: 5px;
+        }
+        nav{
+           background-color: rgb(83, 103, 103);
+           padding: 2px;
+           margin: 0px;
+           box-shadow: 2px 2px 4px 1px rgb(0, 0, 0, 0.315);
+            
+        }
+        nav > a{
+            margin-right: 30px;
+            color: aliceblue;
+            text-decoration: none;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+
+        main{
+            background-color: rgb(154, 193, 206);
+            padding: 5px;
+            margin: 5px;
+        }
+        article{
+            background-color: white;
+            margin-left: 4px;
+            padding: opx;
+        }
+        article > aside{
+            background-color: rgb(66, 92, 101);
+        }
+        footer{
+            background-color: black;
+            text-align: center;
+            color: whitesmoke;
+            margin: 4px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noticas todos os dias</h1>
+        <nav>
+            
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Gamming Tecnolog</h2>
+
+        </section>
+        <section id="noticas">
+            <article>
+                <h2>Noticias da ultima horas</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora natus enim magnam similique dicta praesentium facere quas sed, architecto ex obcaecati maxime hic eius placeat necessitatibus explicabo quidem et iste!</p>
+                <aside>
+                    <p>Artigo escrito por Tonilson Furtado</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p> Desenvolvido por Tonilson Aguiar</p>
+    </footer>
+</body>
+</html>
