@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        th{
+            background-color: gray;
+            color: white;
+            width: 50px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .id{
+            width: 25px;
+        }
+    </style>
+</head>
+<body>
+   
+    <table>
+       
+    <thead>
+        <tr>
+            <th rowspan="2" scope="row"> Áreas </th>
+            <th rowspan="2" scope="row">Disciplinas</th>
+            <th colspan="2" scope="rowgroup">Notas</th>
+            <th rowspan="2" scope="row">Media</th>
+            
+            
+        </tr>
+        <tr>
+            <th class="id">Nota1</th>
+            <th class="id">Nota2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="4" style="text-align: center; font-weight: bold;" scope="colgroup">Exatas</td>
+            <td>Matematica</td>
+            <td>15</td>
+            <td>17</td>
+            <td>xx</td>
+        </tr>
+        <tr>
+            <td>Fisica</td>
+            <td>18</td>
+            <td>19</td>
+            <td>xx</td>
+        </tr>
+        <tr>
+            <td>Quimica</td>
+            <td>20</td>
+            <td>20</td>
+            <td>xx</td>
+        </tr>
+        <tr>
+            <td>Biologia</td>
+            <td>20</td>
+            <td>19</td>
+            <td>xx</td>
+        </tr>
+        <tr>
+            <td colspan="4" style=" color: azure; background-color: gray;">Medias de Exatas</td>
+            <td style="color: white; background-color: grey;">xx</td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="font-weight: bold; text-align: center; " scope="colgroup" >Humanas</td>
+            <td>Historia</td>
+            <td>16</td>
+            <td>18</td>
+            <td>xx</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td>17</td>
+            <td>19</td>
+            <td>xx</td>
+        </tr>
+        <tr>
+            <td colspan="4" style=" color: azure; background-color: gray;">Medias de Humanas</td>
+            <td style="color: white; background-color: grey;">xx</td>
+        </tr>
+    </tbody>
+   
+        
+
+</table>
+    
+   
+</body>
+</html>
