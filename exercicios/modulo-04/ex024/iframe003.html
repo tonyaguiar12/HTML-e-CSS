@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 80vw;
+            height: 300px;
+            border: 2px solid black;
+            background-color: gray;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum est tenetur aut asperiores provident tempora dolor, optio consectetur quos hic voluptas facere dolores, nam, facilis aperiam doloribus velit non quisquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo in porro, enim natus necessitatibus id eius quis officiis, magni accusantium delectus reiciendis, iure adipisci nemo aliquid. Quae, laborum vel.</p>
+    <ul>
+        <li><a href="pag_extras/pagina001.html" target="frame">Primeira pagina</a></li>
+        <li><a href="pag_extras/pag002.html" target="frame">Segunda pagina</a></li>
+        <li><a href="pag_extras/pagina003.html" target="frame">Terceira pagina</a></li>
+        
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odio unde veniam ipsum numquam repudiandae at, facere voluptas iure accusantium odit, quasi recusandae cupiditate, distinctio soluta inventore ullam quam consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est atque eum ab numquam suscipit eligendi! Aliquid maiores saepe totam animi! Ullam delectus quasi cum impedit rerum quisquam ut quis?</p>
+    <iframe srcdoc="<h1> Acesse um dos links acima </h1>" frameborder="1" id="tela" name="frame">
+        <p>Infelizmente seu navegador não é compativel</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore corrupti, rerum, accusamus, error delectus quisquam iste voluptatem dolor est hic vel! Sed illum eum fugiat omnis voluptatum adipisci magni sequi!Lorem</p>
+</body>
+</html>
